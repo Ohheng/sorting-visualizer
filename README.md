@@ -2,7 +2,7 @@
 
 运行如下命令调用所有函数:
 
-```
+```powershell
 python output.py arg1 [arg2 [arg3]]  
 ```
 
@@ -34,10 +34,60 @@ python output.py arg1 [arg2 [arg3]]
 
 **示例**
 
-要创建一个新窗口播放堆排序算法动画，初始序列为降序排列，可以运行：
+- 冒泡算法对降序序列排序
 
-```
-python output.py play heap-sort reversed
+```powershell
+  python output.py play bubble-sort reversed  
 ```
 
-## 
+| 排序前                                           | 排序后                                           |
+| ------------------------------------------------ | ------------------------------------------------ |
+| ![img](http://cdn.ohheng.cn/202406121809579.jpg) | ![img](http://cdn.ohheng.cn/202406121809596.jpg) |
+
+ 
+
+- 堆排序算法对随机序列排序
+
+```powershell
+  python output.py play heap-sort  
+```
+
+| 排序前                                           | 排序后                                           |
+| ------------------------------------------------ | ------------------------------------------------ |
+| ![img](http://cdn.ohheng.cn/202406121809589.jpg) | ![img](http://cdn.ohheng.cn/202406121809598.jpg) |
+
+ 
+
+-  归并排序算法对一些部分重复的序列排序
+
+```powershell
+  python output.py play merge-sort few-unique  
+```
+
+| 排序前                                           | 排序后                                           |
+| ------------------------------------------------ | ------------------------------------------------ |
+| ![img](http://cdn.ohheng.cn/202406121809603.jpg) | ![img](http://cdn.ohheng.cn/202406121809607.jpg) |
+
+ 
+
+- 直接插入排序算法对几乎已排序的序列排序
+
+```powershell
+  python output.py play insertion-sort  almost-sorted     
+```
+
+| 排序前                                                       | 排序后                                                       |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![img](C:/Users/12994/AppData/Local/Temp/msohtmlclip1/01/clip_image014.jpg) | ![img](C:/Users/12994/AppData/Local/Temp/msohtmlclip1/01/clip_image016.jpg) |
+
+ 
+
+- 所有排序算法对随机的序列排序
+
+```powershell
+  python output.py play     
+```
+
+| 排序前                                           | 排序后                                                       |
+| ------------------------------------------------ | ------------------------------------------------------------ |
+| ![img](http://cdn.ohheng.cn/202406121809141.jpg) | ![img](C:/Users/12994/AppData/Local/Temp/msohtmlclip1/01/clip_image020.jpg) |
