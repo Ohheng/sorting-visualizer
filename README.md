@@ -76,9 +76,9 @@ python output.py arg1 [arg2 [arg3]]
   python output.py play insertion-sort  almost-sorted     
 ```
 
-| 排序前                                                       | 排序后                                                       |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](C:/Users/12994/AppData/Local/Temp/msohtmlclip1/01/clip_image014.jpg) | ![img](C:/Users/12994/AppData/Local/Temp/msohtmlclip1/01/clip_image016.jpg) |
+| 排序前                                           | 排序后                                           |
+| ------------------------------------------------ | ------------------------------------------------ |
+| ![img](http://cdn.ohheng.cn/202406121812220.jpg) | ![img](http://cdn.ohheng.cn/202406121812980.jpg) |
 
  
 
@@ -88,6 +88,6 @@ python output.py arg1 [arg2 [arg3]]
   python output.py play     
 ```
 
-| 排序前                                           | 排序后                                                       |
-| ------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](http://cdn.ohheng.cn/202406121809141.jpg) | ![img](C:/Users/12994/AppData/Local/Temp/msohtmlclip1/01/clip_image020.jpg) |
+| 排序前                                           | 排序后                                           |
+| ------------------------------------------------ | ------------------------------------------------ |
+| ![img](http://cdn.ohheng.cn/202406121809141.jpg) | ![img](http://cdn.ohheng.cn/202406121812496.jpg) |
